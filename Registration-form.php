@@ -41,6 +41,7 @@
         .form-container button {
             width: 100%;
             padding: 12px;
+            margin-top: 10px;
             border: none;
             border-radius: 5px;
             background-color: #007bff;
@@ -50,6 +51,10 @@
         }
         .form-container button:hover {
             background-color: #0056b3;
+        }
+        a {
+            text-decoration: none;
+            color: white;
         }
     </style>
 </head>
@@ -63,6 +68,7 @@
             <input type="password" name="confirm_password" placeholder="Confirm Password" required><br>
             <button type="submit">Register</button>
         </form>
+        <button><a href="/login-form">Already have an account? Login</a></button>
     </div>
 </body>
 </html>
