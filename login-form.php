@@ -40,6 +40,7 @@
         .form-container button {
             width: 100%;
             padding: 12px;
+            margin-top: 10px;
             border: none;
             border-radius: 5px;
             background-color: #007bff;
@@ -49,6 +50,10 @@
         }
         .form-container button:hover {
             background-color: #0056b3;
+        }
+        a {
+            text-decoration: none;
+            color: white;
         }
     </style>
 </head>
@@ -60,6 +65,7 @@
             <input type="password" name="password" placeholder="Password" required><br>
             <button type="submit">Login</button>
         </form>
+        <button><a href="/registration-form">Don't have an account? Register</a></button>
     </div>
 </body>
 </html>
