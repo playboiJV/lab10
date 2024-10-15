@@ -29,6 +29,26 @@
             font-size: 16px;
             margin: 5px 0;
         }
+        .welcome-container .buttons {
+            margin-top: 20px;
+        }
+        .welcome-container button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #ffffff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .welcome-container button:hover {
+            background-color: #0056b3;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -36,6 +56,11 @@
         <h1>Welcome to IPT10</h1>
         <p>Name: Joshua Visbal</p>
         <p>Email: jv@gmail.com</p>
+        <div class="buttons">
+            <button><a href="/registration-form">Register</a></button>
+            <button><a href="/login-form">Login</a></button>
+        </div>
     </div>
 </body>
 </html>
+
